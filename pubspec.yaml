@@ -1,6 +1,6 @@
 
 name: alam_calculator
-description: Alam Calculator - Neon Smart Calculator
+description: Alam Calculator - Premium Neon Calculator
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -28,11 +28,11 @@ flutter:
 
   assets:
     - assets/profile.jpg
-    - assets/app_icon.png
+    - assets/icon.png
 
 flutter_launcher_icons:
   android: true
   ios: false
-  image_path: "assets/app_icon.png"
+  image_path: "assets/icon.png"
   adaptive_icon_background: "#050505"
-  adaptive_icon_foreground: "assets/app_icon.png"
+  adaptive_icon_foreground: "assets/icon.png"
