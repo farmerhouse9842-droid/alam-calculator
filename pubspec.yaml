@@ -1,26 +1,38 @@
+
 name: alam_calculator
-description: Offline neon calculator with notebook, age calculator and BD cash counter
-publish_to: none
+description: Alam Calculator - Neon Smart Calculator
+publish_to: 'none'
+
 version: 1.0.0+1
+
 environment:
   sdk: '>=3.3.0 <4.0.0'
+
 dependencies:
   flutter:
     sdk: flutter
+
+  cupertino_icons: ^1.0.8
   shared_preferences: ^2.3.2
   intl: ^0.19.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: ^0.14.1
+
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+
 flutter:
   uses-material-design: true
+
   assets:
-    - assets/images/profile.jpg
-    - assets/images/icon.png
+    - assets/profile.jpg
+    - assets/app_icon.png
+
 flutter_launcher_icons:
   android: true
   ios: false
-  image_path: assets/images/icon.png
-  adaptive_icon_background: '#05080F'
-  adaptive_icon_foreground: assets/images/icon.png
+  image_path: "assets/app_icon.png"
+  adaptive_icon_background: "#050505"
+  adaptive_icon_foreground: "assets/app_icon.png"
